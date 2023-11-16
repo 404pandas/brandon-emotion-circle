@@ -1,0 +1,292 @@
+/* entire circle */
+
+.pie {
+  width: 300px;
+  background: black;
+  border-radius: 50%;
+}
+
+.pie circle {
+  fill: none;
+  stroke: white;
+  stroke-width: 32;
+}
+
+/* colors */
+/* darks */
+
+.fearful-dark-color {
+  stroke: #00a3b9 !important;
+}
+.angry-dark-color {
+  stroke: #7572b4 !important;
+}
+.disgusted-dark-color {
+  stroke: #ab7bb5 !important;
+}
+.sad-dark-color {
+  stroke: #ce7c87 !important;
+}
+.happy-dark-color {
+  stroke: #e1876e !important;
+}
+.surprised-dark-color {
+  stroke: #e5a44b !important;
+}
+.bad-dark-color {
+  stroke: #35ba9f !important;
+}
+
+/* lights */
+
+.fearful-light-color {
+  stroke: #12bcca !important;
+}
+
+.angry-light-color {
+  stroke: #8c8cc4 !important;
+}
+
+.disgusted-light-color {
+  stroke: #b58dc0 !important;
+}
+
+.sad-light-color {
+  stroke: #e297a5 !important;
+}
+
+.happy-light-color {
+  stroke: #ef9783 !important;
+}
+
+.surprised-light-color {
+  stroke: #5cc2af !important;
+}
+
+.bad-light-color {
+  stroke: #5cc2af !important;
+}
+
+/* inner buttons */
+
+#fearful {
+  stroke-dasharray: 14.6 100;
+  stroke: #00a3b9;
+}
+
+#angry {
+  stroke-dasharray: 19.9 100;
+  stroke: #7572b4;
+  stroke-dashoffset: -14.6;
+}
+
+#disgusted {
+  stroke-dasharray: 9.8 100;
+  stroke: #ab7bb5;
+  stroke-dashoffset: -34.5;
+}
+
+#sad {
+  stroke-dasharray: 14.6 100;
+  stroke: #ce7c87;
+  stroke-dashoffset: -44.3;
+}
+
+#happy {
+  stroke-dasharray: 21.9 100;
+  stroke: #e1876e;
+  stroke-dashoffset: -58.9;
+}
+
+#surprised {
+  stroke-dasharray: 9.8 100;
+  stroke: #e5a44b;
+  stroke-dashoffset: -80.8;
+}
+
+#bad {
+  stroke-dasharray: 9.7 100;
+  stroke: #35ba9f;
+  stroke-dashoffset: -90.6;
+}
+
+/* middle buttons */
+
+.middle-dasharray {
+  stroke-dasharray: 2.4 100;
+}
+
+#anxious {
+  stroke-dashoffset: -2.4;
+}
+
+#insecure {
+  stroke-dashoffset: -4.8;
+}
+
+#weak {
+  stroke-dashoffset: -7.2;
+}
+
+#rejected {
+  stroke-dashoffset: -9.6;
+}
+
+#threatened {
+  stroke-dashoffset: -12;
+}
+
+#let-down {
+  stroke-dashoffset: -14.4;
+}
+
+#humiliated {
+  stroke-dashoffset: -16.8;
+}
+
+#bitter {
+  stroke-dashoffset: -19.2;
+}
+
+#mad {
+  stroke-dashoffset: -21.6;
+}
+
+#aggressive {
+  stroke-dashoffset: -24;
+}
+
+#frustrated {
+  stroke-dashoffset: -26.4;
+}
+
+#distant {
+  stroke-dashoffset: -28.8;
+}
+
+#critical {
+  stroke-dashoffset: -31.2;
+}
+
+#disapproving {
+  stroke-dashoffset: -33.6;
+}
+
+#dissapointed {
+  stroke-dashoffset: -36;
+}
+
+#awful {
+  stroke-dashoffset: -38.4;
+}
+
+#repelled {
+  stroke-dashoffset: -40.8;
+}
+
+#hurt {
+  stroke-dashoffset: -43.2;
+}
+
+#depressed {
+  stroke-dashoffset: -45.6;
+}
+
+#guilty {
+  stroke-dashoffset: -48;
+}
+
+#despair {
+  stroke-dashoffset: -2.4;
+}
+
+#vulnerable {
+  stroke-dashoffset: -2.4;
+}
+
+#lonely {
+  stroke-dashoffset: -2.4;
+}
+
+#optimistic {
+  stroke-dashoffset: -2.4;
+}
+
+#trusting {
+  stroke-dashoffset: -2.4;
+}
+
+#peaceful {
+  stroke-dashoffset: -2.4;
+}
+
+#powerful {
+  stroke-dashoffset: -2.4;
+}
+
+#accepted {
+  stroke-dashoffset: -2.4;
+}
+
+#proud {
+  stroke-dashoffset: -2.4;
+}
+
+#interested {
+  stroke-dashoffset: -2.4;
+}
+
+#content {
+  stroke-dashoffset: -2.4;
+}
+
+#playful {
+  stroke-dashoffset: -2.4;
+}
+
+#excited {
+  stroke-dashoffset: -2.4;
+}
+
+#amazed {
+  stroke-dashoffset: -2.4;
+}
+
+#confused {
+  stroke-dashoffset: -2.4;
+}
+
+#startled {
+  stroke-dashoffset: -2.4;
+}
+
+#tired {
+  stroke-dashoffset: -2.4;
+}
+
+#stressed {
+  stroke-dashoffset: -2.4;
+}
+
+#busy {
+  stroke-dashoffset: -2.4;
+}
+
+#bored {
+  stroke-dashoffset: -2.4;
+}
+
+/* outer buttons */
+/* TODO- add IDs for all 82 slices (ex. #frightened) and increment by -1.1 each step for stroke-dashoffset (ex. stroke-dashoffset: -1.1, -2.2, -3.3 */
+
+.outer-dasharray {
+  stroke-dasharray: 1.1 100;
+}
+
+#frightened {
+  stroke-dashoffset: -1.1;
+}
+
+#overwhelmed {
+  stroke-dashoffset: -2.2;
+}
