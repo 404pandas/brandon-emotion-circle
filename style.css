@@ -72,42 +72,85 @@
 #fearful {
   stroke-dasharray: 14.6 100;
   stroke: #00a3b9;
+  -webkit-animation-duration: 0.25s;
+  animation-duration: 0.25s;
 }
 
 #angry {
   stroke-dasharray: 19.9 100;
   stroke: #7572b4;
   stroke-dashoffset: -14.6;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 
 #disgusted {
   stroke-dasharray: 9.8 100;
   stroke: #ab7bb5;
   stroke-dashoffset: -34.5;
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
 }
 
 #sad {
   stroke-dasharray: 14.6 100;
   stroke: #ce7c87;
   stroke-dashoffset: -44.3;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
 }
 
 #happy {
   stroke-dasharray: 21.9 100;
   stroke: #e1876e;
   stroke-dashoffset: -58.9;
+  -webkit-animation-duration: 1.25s;
+  animation-duration: 1.25s;
 }
 
 #surprised {
   stroke-dasharray: 9.8 100;
   stroke: #e5a44b;
   stroke-dashoffset: -80.8;
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
 }
 
 #bad {
   stroke-dasharray: 9.7 100;
   stroke: #35ba9f;
   stroke-dashoffset: -90.6;
+  -webkit-animation-duration: 1.75s;
+  animation-duration: 1.75s;
+}
+
+@-webkit-keyframes rotateIn {
+  0% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: rotate(-300deg);
+  }
+  100% {
+    -webkit-transform-origin: center center;
+    -webkit-transform: rotate(0);
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+}
+
+@keyframes rotateIn {
+  0% {
+    transform-origin: center center;
+    transform: rotate(-300deg);
+  }
+  100% {
+    transform-origin: center center;
+    transform: rotate(0);
+  }
+}
+
+.rotate-in {
+  -webkit-animation-name: rotateIn;
+  animation-name: rotateIn;
 }
 
 /* middle buttons */
@@ -195,7 +238,7 @@
 #guilty {
   stroke-dashoffset: -48;
 }
-
+/* TODO- finish incrementing by -2.4 */
 #despair {
   stroke-dashoffset: -2.4;
 }
@@ -289,4 +332,8 @@
 
 #overwhelmed {
   stroke-dashoffset: -2.2;
+}
+
+#inner-size {
+  width: 50% !important;
 }
